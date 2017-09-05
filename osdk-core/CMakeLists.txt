@@ -114,7 +114,7 @@ export(PACKAGE djiosdk)
 
 # Create the DJIOSDKConfig.cmake and DJIOSDKConfigVersion files
 file(RELATIVE_PATH REL_INCLUDE_DIR "${INSTALL_CMAKE_DIR}"
-   "${INSTALL_INCLUDE_DIR}")
+   "${INSTALL_INCLUDE_DIR}/..")
 # ... for the build tree
 set(CONF_INCLUDE_DIRS "${PROJECT_SOURCE_DIR}" "${PROJECT_BINARY_DIR}")
 configure_file(${CURRENT_CMAKE_MODULE_PATH}/DJIOSDKConfig.cmake.in
