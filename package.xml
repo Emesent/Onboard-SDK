@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>dji_onboard_sdk</name>
+    <version>0.0.0</version>
+    <description>DJI Onboard SDK</description>
+    <maintainer email="duncan.palmer@csiro.au">Duncan Palmer</maintainer>
+    <license>Proprietary</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+n
+    <export>
+        <!-- Treat this as a non-catkin aware cmake build system. See
+          http://www.ros.org/reps/rep-0140.html#build-type -->
+        <build_type>cmake</build_type>
+    </export>
+</package>
+
